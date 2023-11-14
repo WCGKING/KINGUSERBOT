@@ -62,8 +62,8 @@ async def telegraph_uploader(client, message):
         pass
 
 
-__NAME__ = "TGraph"
-__MENU__ = """**Telegraph Uploader:**
+__NAME__ = "✨ TGraph 🌷"
+__MENU__ = """**𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗣𝗛 𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗥:**
 
 `.tl` - Reply This Command To
 Any Text Or Media To Create
