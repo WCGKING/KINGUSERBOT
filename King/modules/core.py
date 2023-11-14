@@ -39,7 +39,7 @@ except Exception as e:
     LOGGER.error("Failed To Connect To Your Mongo Database.")
     exit()
 
-class Daxx(Client, PyTgCalls):
+class King(Client, PyTgCalls):
     def __init__(self):
         self.app = Client(
             name = "King",
