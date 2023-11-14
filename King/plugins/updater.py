@@ -9,8 +9,8 @@ from pyrogram import *
 from pyrogram.types import *
 
 
-UPSTREAM_REPO = "https://github.com/DAXXTEAM/DAXXUSERBOT"
-UPSTREAM_BRANCH = "Daxx"
+UPSTREAM_REPO = "https://github.com/WCGKING/KINGUSERBOTT"
+UPSTREAM_BRANCH = "King"
 
 
 def gen_chlog(repo, diff):
@@ -59,20 +59,20 @@ async def update_userbot(client, message):
     await message.edit("**🔄 Checking Updates ✨...**")
     update_avail = updater()
     if update_avail:
-        await message.edit("**🥳 New Update Available\nFor Daxx-Userbot❗**")
+        await message.edit("**🥳 New Update Available\nFor King-Userbot❗**")
         asyncio.sleep(0.5)
         await message.edit("**🔃 Updating ...**")
         os.system("git pull -f && pip3 install -r Installer")
         await message.edit("**💕 Updated, Now Please\nWait Untill Restart. ✨**")
-        os.system(f"kill -9 {os.getpid()} && python3 -m Daxx")
+        os.system(f"kill -9 {os.getpid()} && python3 -m King")
         return
     else:
-        await message.edit(f"**🥀 Daxx Userbot Already\nUpdated To Latest 🔥 ...\n\n💕 For Any Query › Contact\nTo » @iam_daxx ✨ ...**")
+        await message.edit(f"**🥀 King Userbot Already\nUpdated To Latest 🔥 ...\n\n💕 For Any Query › Contact\nTo » @BRANDEDKING82 ✨ ...**")
 
 __NAME__ = "Update"
 __MENU__ = f"""
 **🥀 Use This Plugin To Update
-Your Daxx Userbot.**
+Your King Userbot.**
 
 **🇮🇳 Command :**
 `.update` - Update Your Userbot
