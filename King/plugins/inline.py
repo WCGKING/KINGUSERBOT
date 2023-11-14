@@ -26,7 +26,7 @@ Daxx Userbot » {__version__} ✨...
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [BRANDED](https://t.me/BRANDEDKING82).**
+🌷Powered By : [ʙʀᴀɴᴅᴇᴅ ᴋɪɴɢ](https://t.me/BRANDEDKING82).**
             """,
             reply_markup=InlineKeyboardMarkup(button),
         )
@@ -46,7 +46,7 @@ Daxx Userbot » {__version__} ✨...
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [BRANDED](https://t.me/BRANDEDKING).**""",
+🌷Powered By : [ʙʀᴀɴᴅᴇᴅ ᴋɪɴɢ](https://t.me/BRANDEDKING82).**""",
             disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(button),
