@@ -69,7 +69,7 @@ async def update_userbot(client, message):
     else:
         await message.edit(f"**🥀 King Userbot Already\nUpdated To Latest 🔥 ...\n\n💕 For Any Query › Contact\nTo » @BRANDEDKING82 ✨ ...**")
 
-__NAME__ = "Update"
+__NAME__ = "✨ Update 🌷"
 __MENU__ = f"""
 **🥀 Use This Plugin To Update
 Your King Userbot.**
