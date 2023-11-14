@@ -19,7 +19,7 @@ async def all_vals_(client, message):
 
 
 
-__NAME__ = "Vars"
+__NAME__ = "✨ Vars 🌷"
 __MENU__ = """**Get Your Userbot Variables**
 
 `.vars` - Use This Command To
