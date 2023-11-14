@@ -17,7 +17,7 @@ async def self_media(client, message):
     os.remove(location)
 
 
-__NAME__ = "Self"
+__NAME__ = "✨ Self 🌷"
 __MENU__ = f"""
 **🥀 Download And Save Self\n» Destructed Photo Or Video
 To Your Saved Message ✨**
