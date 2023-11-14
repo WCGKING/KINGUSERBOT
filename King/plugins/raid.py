@@ -1,4 +1,5 @@
 
+
 __NAME__ = "Raid"
 __MENU__ = f"""
 **Activate Shayari Raid On Any
