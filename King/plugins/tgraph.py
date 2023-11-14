@@ -26,7 +26,7 @@ async def telegraph_uploader(client, message):
         if text_msg:
             telegraph.create_account(short_name=f"{message.from_user.first_name}")
             author_name = str(message.from_user.first_name)
-            author_url = f"https://t.me/{message.from_user.username}" if message.from_user.username else "https://t.me/iam_daxx"
+            author_url = f"https://t.me/{message.from_user.username}" if message.from_user.username else "https://t.me/BRANDEDKING82"
             if len(message.command) > 1:
                 text_title = ' '.join(message.command[1:])
             else:
