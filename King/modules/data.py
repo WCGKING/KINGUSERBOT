@@ -189,5 +189,3 @@ async def disapprove(user_ud: int):
         },
         upsert=True
     )
-
-
