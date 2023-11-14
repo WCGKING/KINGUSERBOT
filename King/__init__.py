@@ -1,7 +1,7 @@
 import os
 
 from .console import LOGGER
-from .modules.core import Daxx
+from .modules.core import King
 from .modules.vars import Config
 from .modules.utils import commandx
 from .modules.utils import commandz
