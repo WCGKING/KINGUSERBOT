@@ -8,7 +8,7 @@ from .. import *
 from ..modules.data import approve, disapprove, is_approved
 
 MSG_PERMIT = """
-PM_SECURITY Daxx-USERBOT
+PM_SECURITY King-USERBOT
 
 {}
 ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
@@ -191,3 +191,4 @@ For Blocking User
 `.unblock`
 For Unblock User
 """
+
