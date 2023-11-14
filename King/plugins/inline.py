@@ -11,14 +11,14 @@ async def help_menu_logo(answer):
     if var.USERBOT_PICTURE:
         thumb_image = var.USERBOT_PICTURE
     else:
-        thumb_image = "https://telegra.ph/file/d96f6c6858129c59842e9.jpg"
+        thumb_image = "https://te.legra.ph/file/11cfa74175b590014bd16.jpg"
     button = paginate_plugins(0, PLUGINS, "help")
     answer.append(
         InlineQueryResultPhoto(
             photo_url=f"{thumb_image}",
             title="🥀 Help Menu ✨",
             thumb_url=f"{thumb_image}",
-            description=f"🥀 Open Help Menu Of Daxx-Userbot ✨...",
+            description=f"🥀 Open Help Menu Of King-Userbot ✨...",
             caption=f"""
 **🥀 Welcome To Help Menu Of
 Daxx Userbot » {__version__} ✨...
@@ -26,7 +26,7 @@ Daxx Userbot » {__version__} ✨...
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [DAXX](https://t.me/iam_daxx).**
+🌷Powered By : [BRANDED](https://t.me/BRANDEDKING82).**
             """,
             reply_markup=InlineKeyboardMarkup(button),
         )
@@ -46,7 +46,7 @@ Daxx Userbot » {__version__} ✨...
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [DAXX](https://t.me/iam_daxx).**""",
+🌷Powered By : [BRANDED](https://t.me/BRANDEDKING).**""",
             disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(button),
