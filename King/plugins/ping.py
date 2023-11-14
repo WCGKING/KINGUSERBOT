@@ -11,7 +11,7 @@ async def alive_check(client, message):
     await m.edit(f"**🤖 Pinged !\nLatency:** `{ms}` ms")
 
 
-__NAME__ = "Ping"
+__NAME__ = "✨ Ping 🌷"
 __MENU__ = f"""
 **🥀 Check Userbot Server
 Ping Latency ✨...**
