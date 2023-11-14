@@ -187,7 +187,7 @@ async def leave_streams(client, message):
         await eor(message, f"**Error:** `{e}`")
 
 
-__NAME__ = "Vcbot"
+__NAME__ = "✨ Vcbot 🌷"
 __MENU__ = """
 **🥀 Audio & Video Player Only
 For Telegram Groups 🦋...**
