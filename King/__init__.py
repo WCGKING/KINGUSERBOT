@@ -35,10 +35,10 @@ for file in os.listdir():
         os.remove(file)
 
 
-Daxx = Daxx()
-app = Daxx.app
-bot = Daxx.bot
-call = Daxx.call
+King = King()
+app = King.app
+bot = King.bot
+call = King.call
 log = LOGGER
 var = Config()
 
