@@ -1,0 +1,47 @@
+{
+    "name": "King-Userbot",
+    "logo": "https://telegra.ph/file/d96f6c6858129c59842e9.jpg",
+    "description": "Daxx-Userbot is a powerful, advanced, multi-featured Telegram userbot.",
+    "keywords": [
+        "userbot",
+        "musicbot",
+        "videobot",
+        "telegram"
+    ],
+    "repository": "https://github.com/WCGKING/KINGUSERBOT",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Enter Your Api ID Here.",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Enter Your App Hash Here",
+            "required": true
+        },
+        "STRING_SESSION": {
+            "description": "Enter Pyrogram v2 String Session",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token, (Get it from @BotFather)",
+            "required": true
+        },
+        "MONGO_DATABASE": {
+            "description": "Enter Your Mongo DB URL",
+            "required": true
+        },
+        "LOG_GROUP_ID": {
+            "description": "Enter Your Logger Group ID",
+            "required": true
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
