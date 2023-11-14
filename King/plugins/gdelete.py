@@ -87,11 +87,10 @@ async def gdelete_users_list(client, message: Message):
         return await txt.edit_text(msg)
         
 
-__NAME__ = "Gᴅᴇʟ"
+__NAME__ = "✨ Gᴅᴇʟ 🌷"
 __MENU__ = f"""
-**__Rᴇᴘʟʏ Tᴏ Aɴ Usᴇʀ Oʀ Gɪᴠᴇ
-Usᴇʀɴᴀᴍᴇ Tᴏ Aᴄᴛɪᴠᴀᴛᴇ Gʟᴏʙᴀʟ
-Dᴇʟᴇᴛᴇ Oɴ Usᴇʀ:__**
+**__𝗥𝗘𝗣𝗟𝗬 𝗧𝗢 𝗔𝗡 𝗨𝗦𝗘𝗥 𝗢𝗥 𝗚𝗜𝗩𝗘 
+𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘 𝗧𝗢 𝗔𝗖𝗧𝗜𝗩𝗔𝗧𝗘 𝗚𝗟𝗢𝗕𝗔𝗟 𝗗𝗘𝗟𝗘𝗧𝗘 𝗢𝗡 𝗨𝗦𝗘𝗥:__**
 __(ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜsᴇ ᴛʜɪs)__
 
 `.gdel` - __ᴀᴄᴛɪᴠᴀᴛᴇ ɢʟᴏʙᴀʟ ᴅᴇʟ
