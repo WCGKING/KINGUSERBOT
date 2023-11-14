@@ -32,7 +32,7 @@ try:
     LOGGER.info("Connecting To Mongo Database ...")
     MONGO_DB_URL = Config.MONGO_DATABASE
     _mongo_async_ = AsyncIOMotorClient(MONGO_DB_URL)
-    mongodb = _mongo_async_.Daxx
+    mongodb = _mongo_async_.King
     LOGGER.info("Succesfully Connected.")
 except Exception as e:
     print(f"Error: {e}")
@@ -42,19 +42,19 @@ except Exception as e:
 class Daxx(Client, PyTgCalls):
     def __init__(self):
         self.app = Client(
-            name = "Daxx",
+            name = "King",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             session_string = Config.STRING_SESSION,
         )
         self.ass = Client(
-            name = "Daxx",
+            name = "King",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             session_string = Config.SESSION_STRING,
         )
         self.bot = Client(
-            name = "iam_daxx",
+            name = "King",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             bot_token = Config.BOT_TOKEN,
@@ -76,9 +76,9 @@ class Daxx(Client, PyTgCalls):
         if self.app.id not in Config.SUDOERS:
             Config.SUDOERS.add(int(self.app.id))
         try:
-            await self.app.join_chat("HEROKUFREECC")
-            await self.app.join_chat("HEROKUFREECC")
-            await self.app.join_chat("HEROKUFREECC")
+            await self.app.join_chat("BRANDED_WORLD")
+            await self.app.join_chat("BRANDED_WORLD")
+            await self.app.join_chat("BRANDED_WORLD")
         except:
             pass
         await self.app.send_message(Config.LOG_GROUP_ID, "**Userbot Started**")
@@ -91,9 +91,9 @@ class Daxx(Client, PyTgCalls):
             self.ass.mention = self.ass.me.mention
             self.ass.id = self.ass.me.id
             try:
-                await self.ass.join_chat("HEROKUFREECC")
-                await self.ass.join_chat("HEROKUFREECC")
-                await self.ass.join_chat("HEROKUFREECC")
+                await self.ass.join_chat("BRANDED_WORLD")
+                await self.ass.join_chat("BRANDED_WORLD")
+                await self.ass.join_chat("BRANDED_WORLD")
             except:
                 pass
             try:
@@ -120,7 +120,7 @@ class Daxx(Client, PyTgCalls):
             await asyncio.sleep(1)
             await self.app.send_message(f"@botfather", f"@{self.bot.username}")
             await asyncio.sleep(1)
-            await self.app.send_message(f"@botfather", "🥀 𝐃𝐚𝐱𝐱 𝐔𝐬𝐞𝐫𝐁𝐨𝐭 ✨")
+            await self.app.send_message(f"@botfather", "🥀 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 ✨")
         except:
             pass
         try:
