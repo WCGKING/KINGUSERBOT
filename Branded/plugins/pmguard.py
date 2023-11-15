@@ -15,7 +15,8 @@ PM_SECURITY BRANDED-USERBOT
 ⍟ You have {}/{} warning!!!
 """
 
-file = "https://te.legra.ph/file/c51f9d5400b4d1e2dce09.jpg", 
+file = 
+"https://te.legra.ph/file/c51f9d5400b4d1e2dce09.jpg", 
 
 DEFAULT = """
 WELCOME....
