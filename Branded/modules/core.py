@@ -32,29 +32,29 @@ try:
     LOGGER.info("Connecting To Mongo Database ...")
     MONGO_DB_URL = Config.MONGO_DATABASE
     _mongo_async_ = AsyncIOMotorClient(MONGO_DB_URL)
-    mongodb = _mongo_async_.King
+    mongodb = _mongo_async_.Branded
     LOGGER.info("Succesfully Connected.")
 except Exception as e:
     print(f"Error: {e}")
     LOGGER.error("Failed To Connect To Your Mongo Database.")
     exit()
 
-class King(Client, PyTgCalls):
+class Branded(Client, PyTgCalls):
     def __init__(self):
         self.app = Client(
-            name = "King",
+            name = "Branded",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             session_string = Config.STRING_SESSION,
         )
         self.ass = Client(
-            name = "King",
+            name = "Branded",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             session_string = Config.SESSION_STRING,
         )
         self.bot = Client(
-            name = "King",
+            name = "Branded",
             api_id = Config.API_ID,
             api_hash = Config.API_HASH,
             bot_token = Config.BOT_TOKEN,
@@ -77,8 +77,8 @@ class King(Client, PyTgCalls):
             Config.SUDOERS.add(int(self.app.id))
         try:
             await self.app.join_chat("BRANDED_WORLD")
-            await self.app.join_chat("BRANDED_WORLD")
-            await self.app.join_chat("BRANDED_WORLD")
+            await self.app.join_chat("BRANDRD_BOT")
+            await self.app.join_chat("BRANDED_PAID_CC")
         except:
             pass
         await self.app.send_message(Config.LOG_GROUP_ID, "**Userbot Started**")
@@ -92,8 +92,8 @@ class King(Client, PyTgCalls):
             self.ass.id = self.ass.me.id
             try:
                 await self.ass.join_chat("BRANDED_WORLD")
-                await self.ass.join_chat("BRANDED_WORLD")
-                await self.ass.join_chat("BRANDED_WORLD")
+                await self.ass.join_chat("BRANDRD_BOT")
+                await self.ass.join_chat("BRANDED_PAID_CC")
             except:
                 pass
             try:
