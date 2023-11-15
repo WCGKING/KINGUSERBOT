@@ -21,6 +21,7 @@ WELCOME....
 Hi, this is the keeper of private messages. Don't spam ya or I'll block you. Wait until my master receives your message.
 """
 
+file="https://te.legra.ph/file/c51f9d5400b4d1e2dce09.jpg",
 
 @app.on_message(
     (
