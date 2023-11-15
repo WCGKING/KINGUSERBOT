@@ -15,15 +15,16 @@ PM_SECURITY BRANDED-USERBOT
 ⍟ You have {}/{} warning!!!
 """
 
+FILE = """
+https://te.legra.ph/file/11cfa74175b590014bd16.jpg
+"""
+
 DEFAULT = """
 
 WELCOME....
 
 Hi, this is the keeper of private messages. Don't spam ya or I'll block you. Wait until my master receives your message.
 """
-FILE = """
-
-https://te.legra.ph/file/11cfa74175b590014bd16.jpg
 
 
 @app.on_message(
