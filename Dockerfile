@@ -6,7 +6,7 @@ RUN pip3 install -U pip
 RUN curl -sL https://deb.nodesource.com/setup_18.x | bash -
 RUN apt-get install -y nodejs
 RUN npm i -g npm
-COPY . /King/
-WORKDIR /King/
+COPY . /Branded/
+WORKDIR /Branded/
 RUN pip3 install -U -r Installer
-CMD python3 -m King
+CMD python3 -m Branded
