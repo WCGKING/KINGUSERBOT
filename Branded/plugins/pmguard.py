@@ -15,9 +15,7 @@ PM_SECURITY BRANDED-USERBOT
 ⍟ You have {}/{} warning!!!
 """
 
-DEFAULT = """
-
-await event.reply_photo(photo =,"https://te.legra.ph/file/11cfa74175b590014bd16.jpg"),
+DEFAULT = "https://te.legra.ph/file/11cfa74175b590014bd16.jpg"
 
 WELCOME....
 
