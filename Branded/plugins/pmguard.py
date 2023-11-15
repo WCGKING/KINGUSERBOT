@@ -8,7 +8,7 @@ from .. import *
 from ..modules.data import approve, disapprove, is_approved
 
 MSG_PERMIT = """
-PM_SECURITY Branded-USERBOT
+PM_SECURITY BRANDED-USERBOT
 
 {}
 ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
@@ -16,7 +16,8 @@ PM_SECURITY Branded-USERBOT
 """
 
 DEFAULT = """
-file="https://te.legra.ph/file/c51f9d5400b4d1e2dce09.jpg",
+FILE = "https://te.legra.ph/file/11cfa74175b590014bd16.jpg",
+
 WELCOME....
 
 Hi, this is the keeper of private messages. Don't spam ya or I'll block you. Wait until my master receives your message.
