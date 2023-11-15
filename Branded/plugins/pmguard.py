@@ -11,7 +11,7 @@ MSG_PERMIT = """
 PM_SECURITY BRANDED-USERBOT
 
 {}
-await message.reply_photo(photo="https://te.legra.ph/file/11cfa74175b590014bd16.jpg")
+await message.reply_photo="https://te.legra.ph/file/11cfa74175b590014bd16.jpg"
 ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 ⍟ You have {}/{} warning!!!
 """
