@@ -67,9 +67,9 @@ async def update_userbot(client, message):
         os.system(f"kill -9 {os.getpid()} && python3 -m Branded")
         return
     else:
-        await message.edit(f"**🥀 King Userbot Already\nUpdated To Latest 🔥 ...\n\n💕 For Any Query › Contact\nTo » @BRANDEDKING82 ✨ ...**")
+        await message.edit(f"**🥀 Branded Userbot Already\nUpdated To Latest 🔥 ...\n\n💕 For Any Query › Contact\nTo » @BRANDEDKING82 ✨ ...**")
 
-__NAME__ = "✨ 𝗨𝗣𝗗𝗔𝗧𝗘 🌷"
+__NAME__ = "✨ ᴜᴘᴅᴀᴛᴇ 🌷"
 __MENU__ = f"""
 **🥀 𝗨𝗦𝗘 𝗧𝗛𝗜𝗦 𝗣𝗟𝗨𝗚𝗜𝗡 𝗧𝗢 𝗨𝗣𝗗𝗔𝗧𝗘
 𝗬𝗢𝗨𝗥 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗨𝗦𝗘𝗥𝗕𝗢𝗧.**
