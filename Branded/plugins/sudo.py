@@ -108,22 +108,22 @@ async def sudo_users_list(client, message: Message):
         await message.edit(text)
 
 
-__NAME__ = "✨ Sudo 🌷"
+__NAME__ = "✨ ꜱᴜᴅᴏ 🌷"
 __MENU__ = f"""
-**🥀 Add Or Remove Sudo Users
-From Your Userbot ✨...**
+**🥀 𝗔𝗗𝗗 𝗢𝗥 𝗥𝗘𝗠𝗢𝗩𝗘 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥𝗦
+𝗙𝗥𝗢𝗠 𝗬𝗢𝗨𝗥 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 ✨...**
 
-`.addsudo` - Reply This Comd
-To Any Message Of Target User
-To Add in Sudo User.
+`.addsudo` - 𝗥𝗘𝗣𝗟𝗬 𝗧𝗛𝗜𝗦 𝗖𝗢𝗠𝗗
+𝗧𝗢 𝗔𝗡𝗬 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗢𝗙 𝗧𝗔𝗥𝗚𝗘𝗧 𝗨𝗦𝗘𝗥 
+𝗧𝗢 𝗔𝗗𝗗 𝗜𝗡 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥.
 
-`.delsudo` - Reply This Comd
-To Any Message Of Target User
-To Remove From Sudo User.
+`.delsudo` - 𝗥𝗘𝗣𝗟𝗬 𝗧𝗛𝗜𝗦 𝗖𝗢𝗠𝗗
+T𝗢 𝗔𝗡𝗬 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗢𝗙 𝗧𝗔𝗥𝗚𝗘𝗧 𝗨𝗦𝗘𝗥 
+𝗧𝗢 𝗥𝗘𝗠𝗢𝗩𝗘 𝗙𝗥𝗢𝗠 𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥.
 
-`.sudolist - Get All Active
-Sudo Users List.
+`.sudolist -𝗚𝗘𝗧 𝗔𝗟𝗟 𝗔𝗖𝗧𝗜𝗩𝗘
+𝗦𝗨𝗗𝗢 𝗨𝗦𝗘𝗥 𝗟𝗜𝗦𝗧.
 
-**Some Shortcut Commands:**
+**𝗦𝗢𝗠𝗘 𝗦𝗛𝗢𝗥𝗧𝗖𝗨𝗧 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦:**
 => [`.as`, `.ds`, `.sl`]
 """
