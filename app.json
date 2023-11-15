@@ -1,7 +1,7 @@
 {
-    "name": "King-Userbot",
+    "name": "Branded-Userbot",
     "logo": "https://telegra.ph/file/d96f6c6858129c59842e9.jpg",
-    "description": "Daxx-Userbot is a powerful, advanced, multi-featured Telegram userbot.",
+    "description": "Branded-Userbot is a powerful, advanced, multi-featured Telegram userbot.",
     "keywords": [
         "userbot",
         "musicbot",
@@ -20,7 +20,7 @@
             "required": true
         },
         "STRING_SESSION": {
-            "description": "Enter Pyrogram v2 String Session",
+            "description": "Enter Pyrogram v2 String Session @BRANDEDSTRINGSESSION_BOT",
             "required": true
         },
         "BOT_TOKEN": {
