@@ -19,5 +19,5 @@ logging.getLogger("pyrogram").setLevel(logging.ERROR)
 logging.getLogger("pytgcalls").setLevel(logging.ERROR)
 logging.getLogger("ntgcalls").setLevel(logging.ERROR)
 
-LOGGER = logging.getLogger("King")
+LOGGER = logging.getLogger("Branded")
 
