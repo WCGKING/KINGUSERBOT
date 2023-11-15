@@ -16,9 +16,6 @@ PM_SECURITY BRANDED-USERBOT
 """
 
 DEFAULT = """
-
-file = "https://te.legra.ph/file/11cfa74175b590014bd16.jpg"
-
 WELCOME....
 
 Hi, this is the keeper of private messages. Don't spam ya or I'll block you. Wait until my master receives your message.
