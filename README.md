@@ -1,4 +1,4 @@
-# README.md<h2 align="center">
+README.md<h2 align="center">
     ──「 𝗞𝗜𝗡𝗚 𝗫 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 」──
     
 # 「[𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗫 𝗞𝗜𝗡𝗚❤️💣](https://t.me/BRANDRD_BOT)」
