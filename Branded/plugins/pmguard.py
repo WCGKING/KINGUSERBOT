@@ -15,13 +15,13 @@ PM_SECURITY BRANDED-USERBOT
 ⍟ You have {}/{} warning!!!
 """
 
+file = "https://te.legra.ph/file/c51f9d5400b4d1e2dce09.jpg", 
+
 DEFAULT = """
 WELCOME....
 
-Hi, this is the keeper of private messages. Don't spam ya or I'll block you. Wait until my master receives your message.
+ʜɪ, ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ᴋᴇᴇᴘᴇʀ ᴏꜰ ᴘʀɪᴠᴀᴛᴇ ᴍᴇꜱꜱᴀɢᴇꜱ. ᴅᴏɴ'ᴛ ꜱᴘᴀᴍ ʏᴀ ᴏʀ ɪ'ʟʟ ʙʟᴏᴄᴋ ʏᴏᴜ. ᴡᴀɪᴛ ᴜɴᴛɪʟ ᴍʏ ᴍᴀꜱᴛᴇʀ ʀᴇᴄᴇɪᴠᴇꜱ ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇ.ɪ ᴀᴍ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ sᴜᴘᴇʀғᴀsᴛ ᴜꜱᴇʀʙᴏᴛ  ᴡɪᴛʜ 24x7 ᴀᴄᴛɪᴠᴇ » ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ 
 """
-
-file="https://te.legra.ph/file/c51f9d5400b4d1e2dce09.jpg",
 
 @app.on_message(
     (
