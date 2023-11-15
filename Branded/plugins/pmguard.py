@@ -17,7 +17,7 @@ PM_SECURITY BRANDED-USERBOT
 
 DEFAULT = """
 
-await event.reply_photo(photo =,"https://te.legra.ph/file/11cfa74175b590014bd16.jpg",)
+await event.reply_photo(photo =,"https://te.legra.ph/file/11cfa74175b590014bd16.jpg"),
 
 WELCOME....
 
