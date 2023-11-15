@@ -8,7 +8,7 @@ from .. import *
 from ..modules.data import approve, disapprove, is_approved
 
 MSG_PERMIT = """
-PM_SECURITY King-USERBOT
+PM_SECURITY Branded-USERBOT
 
 {}
 ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
@@ -175,19 +175,19 @@ async def unblock_user_func(client: Client, message: Message):
     await message.reply("Unblock User Successfully!!!")
 
 
-__NAME__ = "✨ PM 🌷"
+__NAME__ = "✨ ᴘᴍ 🌷"
 __MENU__ = f"""
-**🥀 Private Message Guard ✨...**
+**🥀 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗚𝗨𝗔𝗥𝗗 ✨...**
 
 `.a` or `.approve`
-For approve user
+𝗙𝗢𝗥 𝗔𝗣𝗣𝗥𝗢𝗩𝗘 𝗨𝗦𝗘𝗥
 
 `.da` or `.disapprove`
-For rejected user
+𝗙𝗢𝗥 𝗥𝗘𝗝𝗘𝗖𝗧𝗘𝗗 𝗨𝗦𝗘𝗥
 
 `.block`
-For Blocking User
+𝗙𝗢𝗥 𝗕𝗟𝗢𝗖𝗞𝗜𝗡𝗚 𝗨𝗦𝗘𝗥
 
 `.unblock`
-For Unblock User
+𝗙𝗢𝗥 𝗨𝗡𝗕𝗟𝗢𝗖𝗞 𝗨𝗦𝗘𝗥
 """
