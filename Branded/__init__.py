@@ -1,7 +1,7 @@
 import os
 
 from .console import LOGGER
-from .modules.core import King
+from .modules.core import Branded
 from .modules.vars import Config
 from .modules.utils import commandx
 from .modules.utils import commandz
@@ -35,10 +35,10 @@ for file in os.listdir():
         os.remove(file)
 
 
-King = King()
-app = King.app
-bot = King.bot
-call = King.call
+Branded = Branded()
+app = Branded.app
+bot = Branded.bot
+call = Branded.call
 log = LOGGER
 var = Config()
 
