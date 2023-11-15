@@ -11,6 +11,7 @@ MSG_PERMIT = """
 PM_SECURITY BRANDED-USERBOT
 
 {}
+await message.reply_photo(photo="https://te.legra.ph/file/11cfa74175b590014bd16.jpg")
 ▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂
 ⍟ You have {}/{} warning!!!
 """
@@ -20,9 +21,6 @@ WELCOME....
 
 ʜɪ, ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ᴋᴇᴇᴘᴇʀ ᴏꜰ ᴘʀɪᴠᴀᴛᴇ ᴍᴇꜱꜱᴀɢᴇꜱ. ᴅᴏɴ'ᴛ ꜱᴘᴀᴍ ʏᴀ ᴏʀ ɪ'ʟʟ ʙʟᴏᴄᴋ ʏᴏᴜ. ᴡᴀɪᴛ ᴜɴᴛɪʟ ᴍʏ ᴍᴀꜱᴛᴇʀ ʀᴇᴄᴇɪᴠᴇꜱ ʏᴏᴜʀ ᴍᴇꜱꜱᴀɢᴇ.ɪ ᴀᴍ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ sᴜᴘᴇʀғᴀsᴛ ᴜꜱᴇʀʙᴏᴛ  ᴡɪᴛʜ 24x7 ᴀᴄᴛɪᴠᴇ » ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɪᴅ 
 """
-
-FILE = "https://te.legra.ph/file/c51f9d5400b4d1e2dce09.jpg"
-
 
 @app.on_message(
     (
