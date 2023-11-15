@@ -10,7 +10,7 @@ from pyrogram.types import *
 
 
 UPSTREAM_REPO = "https://github.com/WCGKING/KINGUSERBOTT"
-UPSTREAM_BRANCH = "King"
+UPSTREAM_BRANCH = "Branded"
 
 
 def gen_chlog(repo, diff):
@@ -59,22 +59,22 @@ async def update_userbot(client, message):
     await message.edit("**🔄 Checking Updates ✨...**")
     update_avail = updater()
     if update_avail:
-        await message.edit("**🥳 New Update Available\nFor King-Userbot❗**")
+        await message.edit("**🥳 New Update Available\nFor Branded-Userbot❗**")
         asyncio.sleep(0.5)
         await message.edit("**🔃 Updating ...**")
         os.system("git pull -f && pip3 install -r Installer")
         await message.edit("**💕 Updated, Now Please\nWait Untill Restart. ✨**")
-        os.system(f"kill -9 {os.getpid()} && python3 -m King")
+        os.system(f"kill -9 {os.getpid()} && python3 -m Branded")
         return
     else:
         await message.edit(f"**🥀 King Userbot Already\nUpdated To Latest 🔥 ...\n\n💕 For Any Query › Contact\nTo » @BRANDEDKING82 ✨ ...**")
 
-__NAME__ = "✨ Update 🌷"
+__NAME__ = "✨ 𝗨𝗣𝗗𝗔𝗧𝗘 🌷"
 __MENU__ = f"""
-**🥀 Use This Plugin To Update
-Your King Userbot.**
+**🥀 𝗨𝗦𝗘 𝗧𝗛𝗜𝗦 𝗣𝗟𝗨𝗚𝗜𝗡 𝗧𝗢 𝗨𝗣𝗗𝗔𝗧𝗘
+𝗬𝗢𝗨𝗥 𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𝗨𝗦𝗘𝗥𝗕𝗢𝗧.**
 
-**🇮🇳 Command :**
-`.update` - Update Your Userbot
-To Latest Version.
+**🇮🇳 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 :**
+`.update` - 𝗨𝗣𝗗𝗔𝗧𝗘 𝗬𝗢𝗨𝗥𝗨 𝗦𝗘𝗥𝗕𝗢𝗧
+𝗧𝗢 𝗟𝗔𝗧𝗘𝗦𝗧 𝗩𝗘𝗥𝗦𝗜𝗢𝗡.
 """
