@@ -54,13 +54,13 @@ async def help_button(client, query):
     next_match = re.match(r"help_next\((.+?)\)", query.data)
     back_match = re.match(r"help_back", query.data)
     top_text = f"""
-**🥀 Welcome To Help Menu Of
-King Userbot » {__version__} ✨...
+**🥀𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨 𝗢𝗙
+Branded Userbot » {__version__} ✨...
 
-Click On Below 🌺 Buttons To
-Get Userbot Commands.
+𝗖𝗟𝗜𝗖𝗞 𝗢𝗡 𝗕𝗘𝗟𝗢𝗪 🌺 𝗕𝗨𝗧𝗧𝗢𝗡𝗦 𝗧𝗢
+𝗚𝗘𝗧 𝗨𝗦𝗘𝗥𝗢𝗧 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦
 
-🌷Powered By : [BRANDED](https://t.me/BRANDEDKING82).**"""
+🌷Powered By : [𝗕𝗥𝗔𝗡𝗗𝗘𝗗 𓆩🇽𓆪 𝗞𝗜𝗡𝗚](https://t.me/BRANDEDKING82).**"""
     if plug_match:
         plugin = plug_match.group(1)
         text = (
