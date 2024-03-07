@@ -1,47 +1,59 @@
 {
     "name": "Branded-Userbot",
-    "logo": "https://telegra.ph/file/d96f6c6858129c59842e9.jpg",
-    "description": "Branded-Userbot is a powerful, advanced, multi-featured Telegram userbot.",
+    "description": "Branded-Userbot is an advanced & powerful multi-featured Telegram userbot.",
+    "logo": "https://te.legra.ph/file/11cfa74175b590014bd16.jpg",
     "keywords": [
-        "userbot",
-        "musicbot",
-        "videobot",
-        "telegram"
+        "genius-userbot",
+        "telegram-userbot",
+        "telegram-music-bot",
+        "telegram-video-bot"
     ],
     "repository": "https://github.com/WCGKING/KINGUSERBOT",
     "stack": "container",
     "env": {
         "API_ID": {
-            "description": "Enter Your Api ID Here.",
+            "description": "Enter your api id here.",
+            "value": "",
             "required": true
         },
         "API_HASH": {
-            "description": "Enter Your App Hash Here",
-            "required": true
-        },
-        "STRING_SESSION": {
-            "description": "Enter Pyrogram v2 String Session @BRANDEDSTRINGSESSION_BOT",
+            "description": "Enter your api hash here.",
+            "value": "",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "Your Bot Token, (Get it from @BotFather)",
+            "description": "Enter your bot token here",
+            "value": "",
             "required": true
         },
-        "MONGO_DATABASE": {
-            "description": "Enter Your Mongo DB URL",
+        "STRING_SESSION": {
+            "description": "Enter your pyrogram v2 string session here @BRANDEDSTRINGSESSION_BOT.",
+            "value": "",
+            "required": true
+        },
+        "MONGO_DB_URL": {
+            "description": "Enter your mongodb url here.",
+            "value": "",
             "required": true
         },
         "LOG_GROUP_ID": {
-            "description": "Enter Your Logger Group ID",
+            "description": "Enter your private log group id here.",
+            "value": "",
             "required": true
         }
     },
-    "buildpacks": [
-    {
-      "url": "heroku/python"
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "standard-2x"
+        }
     },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-    }
-  ]
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ]
 }
