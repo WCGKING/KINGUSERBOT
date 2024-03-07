@@ -1,0 +1,8 @@
+asyncio==3.4.3
+motor==3.3.2
+pyrogram-dev==2.1.0
+python-dotenv==1.0.1
+py-tgcalls==1.2.9
+tgcrypto==1.2.5
+youtube-search-python
+yt-dlp==2023.12.30
