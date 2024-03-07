@@ -1,3 +1,7 @@
+<p align="center">
+<a href="https://github.com/WCGKING/KINGUSERBOT"><img src="https://te.legra.ph/file/11cfa74175b590014bd16.jpg" height="270" width="480" alt="Branded-Userbot"/></a>
+</p>
+
 README.md<h2 align="center">
     ──「 𝗞𝗜𝗡𝗚 𝗫 𝗨𝗦𝗘𝗥𝗕𝗢𝗧 」──
     
@@ -35,4 +39,18 @@ README.md<h2 align="center">
 <p align="center">
 <a href="https://t.me/BRANDRD_BOT"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
+
+
+<h2>🌐 Updates & Support</h2>
+<p title="Support">You can join Genius-Userbot's official Telegram channel and group on Telegram for any Genius-Userbot updates and support-related issues.</p>
+
+- Telegram Channel: [**`@BRANDED_PAID_CC`**](https://t.me/BRANDED_PAID_CC)
+
+- 
+<h2>📑 Acknowledgement / Credits</h2>
+
+- [**`Pyrogram:`**](https://github.com/pyrogram) All functions of Branded-Userbot based on this mtproto client library.
+- [**`Py-TgCalls:`**](https://github.com/py-tgcalls) Streaming system of Branded-Userbot based on this library.
+
+
 
