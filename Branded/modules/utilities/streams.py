@@ -26,7 +26,7 @@ async def run_stream(link, type):
     if type == "Audio":
         stream = MediaStream(
             media_path=link,
-            video_flags=MediaStream.IGNORE,
+            video_flags=MediaStream.Flags.IGNORE,
             audio_parameters=AudioQuality.STUDIO,
         )
 
@@ -46,6 +46,6 @@ async def close_stream(chat_id):
     except QueueEmpty:
         pass
     try:
-        return await call.leave_group_call(chat_id)
+        return await call.leave_call(chat_id)
     except:
         pass
