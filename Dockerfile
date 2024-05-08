@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:22.04
 RUN apt-get update -y && apt-get upgrade -y \
     && apt-get install -y --no-install-recommends git ffmpeg python3-pip \
     && apt-get clean \
