@@ -1,6 +1,7 @@
 from asyncio.queues import QueueEmpty
 from pyrogram import filters
-from pytgcalls.exceptions import GroupCallNotFound
+from pytgcalls.exceptions import *
+from pytgcalls.types.calls import Call
 
 from ... import app, eor, cdx, cdz
 from ...modules.helpers.wrapper import *
@@ -13,27 +14,32 @@ from ...modules.utilities.streams import *
 @sudo_users_only
 async def skip_stream(client, message):
     chat_id = message.chat.id
+    calls = await call.calls
+    chat_call = calls.get(chat_id)
     try:
-        a = await call.get_call(chat_id)
-        if (a.status == "playing"
-            or a.status == "paused"
-        ):
-            queues.task_done(chat_id)
-            if queues.is_empty(chat_id):
-                await call.leave_group_call(chat_id)
-                return await eor(message, "**Empty Queue, So\nLeaving VC!**")
-            check = queues.get(chat_id)
-            file = check["file"]
-            type = check["type"]
-            stream = await run_stream(file, type)
-            await call.change_stream(chat_id, stream)
-            return await eor(message, "**Stream Skipped!**")
-        elif a.status == "not_playing":
-            await eor(message, "**Nothing Playing!**")
-    except GroupCallNotFound:
-        await eor(message, "**I am Not in VC!**")
+        if chat_call:
+            status = chat_call.status
+            if (
+                status == Call.Status.PLAYING
+                or status == Call.Status.PAUSED
+            ):
+                queues.task_done(chat_id)
+                if queues.is_empty(chat_id):
+                    await call.leave_call(chat_id)
+                    return await eor(message, "**Empty Queue, So\nLeaving VC!**")
+                check = queues.get(chat_id)
+                file = check["file"]
+                type = check["type"]
+                stream = await run_stream(file, type)
+                await call.play(chat_id, stream)
+                return await eor(message, "**Stream Skipped!**")
+            elif status == Call.Status.IDLE:
+                await eor(message, "**Nothing Playing!**")
+        else:
+            await eor(message, "**I am Not in VC!**")
     except Exception as e:
         print(f"Error: {e}")
+        pass
 
 
 
@@ -46,25 +52,29 @@ async def skip_stream_(client, message):
         return await eor(message,
             "**🥀 No Stream Chat Set❗**"
     )
+    calls = await call.calls
+    chat_call = calls.get(chat_id)
     try:
-        a = await call.get_call(chat_id)
-        if (a.status == "playing"
-            or a.status == "paused"
-        ):
-            queues.task_done(chat_id)
-            if queues.is_empty(chat_id):
-                await call.leave_group_call(chat_id)
-                return await eor(message, "**Empty Queue, So\nLeaving VC!**")
-            check = queues.get(chat_id)
-            file = check["file"]
-            type = check["type"]
-            stream = await run_stream(file, type)
-            await call.change_stream(chat_id, stream)
-            return await eor(message, "**Stream Skipped!**")
-        elif a.status == "not_playing":
-            await eor(message, "**Nothing Playing!**")
-    except GroupCallNotFound:
-        await eor(message, "**I am Not in VC!**")
+        if chat_call:
+            status = chat_call.status
+            if (
+                status == Call.Status.PLAYING
+                or status == Call.Status.PAUSED
+            ):
+                queues.task_done(chat_id)
+                if queues.is_empty(chat_id):
+                    await call.leave_call(chat_id)
+                    return await eor(message, "**Empty Queue, So\nLeaving VC!**")
+                check = queues.get(chat_id)
+                file = check["file"]
+                type = check["type"]
+                stream = await run_stream(file, type)
+                await call.play(chat_id, stream)
+                return await eor(message, "**Stream Skipped!**")
+            elif status == Call.Status.IDLE:
+                await eor(message, "**Nothing Playing!**")
+        else:
+            await eor(message, "**I am Not in VC!**")
     except Exception as e:
         print(f"Error: {e}")
-
+        pass
