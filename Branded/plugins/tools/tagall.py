@@ -110,3 +110,13 @@ async def cancelcmd(_, message):
     else:
         await message.reply_text("**ɴᴏ ᴘʀᴏᴄᴇss ᴏɴɢᴏɪɴɢ!**")
         return
+
+
+__NAME__ = "tagall"
+__MENU__ = """
+**Tag all the members one by one
+Or Group By Simple Commands.**
+
+`.tagall` - text/reply ke chat.
+`.cancel` - to stop .tagall.
+"""
