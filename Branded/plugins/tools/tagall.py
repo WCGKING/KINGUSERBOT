@@ -13,7 +13,7 @@ SPAM_CHATS = []
 
 
 @app.on_message(
-    filters.command(["allking", "allmention", "kingtag"], prefixes=["/", "@"])
+    filters.command(["tagall"], prefixes=["."])
      & ~filters.private
 )
 @sudo_users_only
@@ -117,6 +117,6 @@ __MENU__ = """
 **Tag all the members one by one
 Or Group By Simple Commands.**
 
-`.allking` - text/reply ke chat.
+`.tagall` - text/reply ke chat.
 `.cancel` - to stop .tagall.
 """
