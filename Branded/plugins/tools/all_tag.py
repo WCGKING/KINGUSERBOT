@@ -97,3 +97,13 @@ async def cancelcmd(_, message):
     else:
         await message.reply_text("**ɴᴏ ᴘʀᴏᴄᴇss ᴏɴɢᴏɪɴɢ!**")
         return
+
+
+__NAME__ = "king"
+__MENU__ = """
+**king the members one by one
+Or Group By Simple Commands.**
+
+`.king` - text/reply ke chat.
+`.kingoff` - to stop .kingoff.
+"""
