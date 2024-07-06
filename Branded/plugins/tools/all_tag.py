@@ -12,8 +12,8 @@ from pyrogram.errors import FloodWait
 SPAM_CHATS = []
 
 @app.on_message(
-    filters.command(["all", "mention", "mentionall"], prefixes=["/", "@", ".", "#"])
-    & admin_filter
+    filters.command(["king"], prefixes=["."])
+     & ~filters.private
 )
 async def tag_all_users(_, message):
 
