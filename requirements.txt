@@ -1,9 +1,8 @@
 asyncio==3.4.3
-motor==3.3.2
-pyrogram==2.0.106
+motor==2.5.1
+pyrogram-dev==2.1.0
 python-dotenv==1.0.1
-py-tgcalls==1.1.2
+py-tgcalls==2.0.1
 tgcrypto==1.2.5
 youtube-search-python
 yt-dlp==2023.12.30
-pymongo==3.13.0
