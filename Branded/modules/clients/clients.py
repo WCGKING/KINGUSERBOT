@@ -87,8 +87,8 @@ def mongodbase():
         mongobase = async_client(MONGO_DB_URL)
         mongodb = mongobase.AdityaHalder
         LOGGER.info("Conected To Your Database.")
-    except:
-        LOGGER.error("Failed To Connect, Please Change Your Mongo Database !")
+    except Exception as e:
+        LOGGER.error(f"Failed To Connect,Please Change Your Mongo Database !\nError: {e}")
         sys.exit()
 
 mongodbase()
