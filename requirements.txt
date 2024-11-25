@@ -8,3 +8,4 @@ telegraph
 tgcrypto==1.2.5
 youtube-search-python
 yt-dlp
+pymongo[srv]
